@@ -1,14 +1,16 @@
 title:             Elliot Voris
 email:             elliot@voris.me
 description:       Faith. Family. Curiosity.
-author:            Start Bootstrap
+author:            Elliot John Voris
 baseurl:           ""
 url:               "http://www.elliotfriend.com"
 
 # Social Profiles
-twitter_username:  elliotfriend
-github_username:   elliotfriend
-facebook_username: elliotfriend
+twitter_username:   elliotfriend
+github_username:    elliotfriend
+facebook_username:  elliotfriend
+youtube_username:   elliotfriend
+instagram_username: elliotfriend
 
 # Build settings
 markdown:          kramdown
