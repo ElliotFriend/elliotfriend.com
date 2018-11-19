@@ -7,7 +7,7 @@
 {% if page.url contains 'contact' %}
   <!-- Form Validation -->
   <script src="{{"/assets/vendor/startbootstrap-clean-blog/js/jqBootstrapValidation.js" | relative_url }}"></script>
-  <!-- Send Formspree Form -->
+  <!-- Send Form -->
   <script>
     $(function () {
 
@@ -31,8 +31,9 @@
           $this = $("#sendMessageButton");
           $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
           $.ajax({
-            url: "//formspree.io/{{ site.email }}",
+            url: "https://formcarry.com/s/AzifiHIYnmK",
             type: "POST",
+			dataType: "json",
             data: {
               name: name,
               phone: phone,
@@ -79,29 +80,6 @@
     /*When clicking on Full hide fail/success boxes */
     $('#name').focus(function () {
       $('#success').html('');
-    });
-  </script>
-  
-  <!-- Send Formcarry Form -->
-  <script>
-    $(function(){
-      $(".ajaxForm").submit(function(e){
-        e.preventDefault();
-        var href = $(this).attr("action");
-        $.ajax({
-          type: "POST",
-          dataType: "json",
-          url: href,
-          data: $(this).serialize(),
-          success: function(response){
-            if(response.status == "success"){
-              alert("We received your submission, thank you!");
-            }else{
-              alert("An error occured: " + response.message);
-            }
-          }
-        });
-      });
     });
   </script>
 {% endif %}
