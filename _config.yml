@@ -1,9 +1,9 @@
-title:             Elliot Voris
-email:             elliot@voris.me
-description:       Faith. Family. Curiosity.
-author:            Elliot Voris
-baseurl:           ""
-url:               "https://www.elliotfriend.com"
+title:              Elliot Voris
+email:              elliot@voris.me
+description:        I'm Elliot. I'm your friend.
+author:             Elliot Voris
+baseurl:            ""
+url:                "https://www.elliotfriend.com"
 
 # Social Profiles
 twitter_username:   elliotfriend
@@ -13,9 +13,10 @@ youtube_username:   elliotfriend
 instagram_username: elliotfriend
 
 # Build settings
-markdown:          kramdown
-paginate:          5
-paginate_path:     "/posts/page:num/"
+permalink:          /post/:year/:month/:day/:title
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
