@@ -16,7 +16,9 @@ background: '/img/bg-post.jpg'
       {% endif %}
     </a>
     <p class="post-meta">Posted by
-      {% if post.author %}
+      {% if post.author.display_name %}
+        {{ post.author.display_name }}
+      {% elsif post.author %}
         {{ post.author }}
       {% else %}
         {{ site.author }}
