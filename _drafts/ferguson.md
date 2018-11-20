@@ -1,6 +1,7 @@
 ---
-layout: post
-status: draft
+layout: revision
+status: inherit
+published: false
 title: "#Ferguson"
 author:
   display_name: elliotfriend
@@ -9,12 +10,11 @@ author:
   url: ''
 author_login: elliotfriend
 author_email: elliot@voris.me
-wordpress_id: 281
-wordpress_url: http://elliot.voris.me/?p=281
-date: '2014-08-14 09:57:29 -0500'
-date_gmt: '2014-08-14 14:57:29 -0500'
-categories:
-- Uncategorized
+wordpress_id: 283
+wordpress_url: http://elliot.voris.me/2014/08/281-revision-v1/
+date: '2014-08-14 10:25:33 -0500'
+date_gmt: '2014-08-14 15:25:33 -0500'
+categories: []
 tags: []
 comments: []
 ---
