@@ -16,8 +16,8 @@ date: '2013-02-19 16:40:32 -0600'
 date_gmt: '2013-02-19 21:40:32 -0600'
 categories:
 - Technology
-tags: []
-- Technology
+tags:
+- technology
 - work
 comments: []
 ---
