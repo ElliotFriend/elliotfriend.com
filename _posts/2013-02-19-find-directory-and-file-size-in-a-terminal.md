@@ -16,13 +16,26 @@ date: '2013-02-19 16:40:32 -0600'
 date_gmt: '2013-02-19 21:40:32 -0600'
 categories:
 - Technology
-- Work
 tags: []
+- Technology
+- work
 comments: []
 ---
-<p>Here's a really handy command that I tend to forget exists.</p>
-<p>If you're running out of disk space, it can be really hard to track down a runaway file. Here's a way you can get some more information.</p>
-<blockquote><p>du -hs /path/to/directory/or/file</p></blockquote>
-<p>This helped me figure out once where my&nbsp;<strong>114GB</strong>&nbsp;log file was taking up all my space! Super handy!</p>
-<p><strong>EDIT</strong>: I will point out that if you are trying to find the size of all files or directories in a given directory, use the asterisk to target them all:</p>
-<blockquote><p>du -hs /home/elliot/*</p></blockquote>
+Here's a really handy command that I tend to forget exists.
+
+If you're running out of disk space, it can be really hard to track down a
+runaway file. Here's a way you can get some more information.
+
+```bash
+du -hs /path/to/directory/or/file
+```
+
+This helped me figure out once where my **114GB** log file was taking up all my
+space! Super handy!
+
+_EDIT:_ I will point out that if you are trying to find the size of all files or
+directories in a given directory, use the asterisk to target them all:
+
+```bash
+du -hs /home/elliot/*
+```

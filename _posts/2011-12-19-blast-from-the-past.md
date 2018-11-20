@@ -23,5 +23,7 @@ tags:
 - video
 comments: []
 ---
-<p>Here's a video that <a href="http://twitter.com/brockthoward">@brockthoward</a> and I put together back in the day. It's easily one of my favorites that I've made!</p>
-<p>http://www.youtube.com/watch?v=bw9d2APczx8</p>
+Here's a video that [@brockthoward](http://twitter.com/brockthoward) and I put
+together back in the day. It's easily one of my favorites that I've made!
+
+http://www.youtube.com/watch?v=bw9d2APczx8

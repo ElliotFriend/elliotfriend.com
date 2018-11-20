@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Fibonacci Sequence in Python
+subtitle: Who knew it could be so easy and gratifying?
 author:
   display_name: elliotfriend
   login: elliotfriend
@@ -10,6 +11,7 @@ author:
   url: ''
 author_login: elliotfriend
 author_email: elliot@voris.me
+background: golden-spiral.jpg
 wordpress_id: 267
 wordpress_url: http://elliot.voris.me/?p=267
 date: '2014-03-09 00:55:38 -0600'
@@ -22,9 +24,10 @@ tags:
 - python
 comments: []
 ---
-In case anyone ever wanted to know how to run the Fibonacci Sequence in Python, here's how I did it:
+In case anyone ever wanted to know how to run the Fibonacci Sequence in Python,
+here's how I did it:
 
-```
+```python
 #!/usr/bin/env python
 import sys
 
@@ -36,6 +39,8 @@ while len(f_seq) <= int(sys.argv[1]):
 print f_seq
 ```
 
-Now, all you have to do is run 'fibonacci.py 20', and it will give you all the numbers through F20 (starting at zero).
+Now, all you have to do is run `fibonacci.py 20`, and it will give you all the
+numbers through F20 (starting at zero).
 
-Update: I put this up on Github, and have made a couple changes since. [Check it out here!](https://github.com/ElliotFriend/bin/blob/master/fibonacci.py)
+Update: I put this up on Github, and have made a couple changes since.
+[Check it out here!](https://github.com/ElliotFriend/bin/blob/master/fibonacci.py)
