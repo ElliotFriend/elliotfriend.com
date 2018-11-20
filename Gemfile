@@ -4,6 +4,10 @@ source "https://rubygems.org"
 gemspec
 
 gem "jekyll", "~> 3.6.0"
+gem "github-pages"
+gem "html-proofer"
+gem "rake"
+gem "travis"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
