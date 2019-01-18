@@ -16,8 +16,12 @@ end
 
 desc "Check the quality of the HTML output"
 task :proof do
-  HTMLProofer.check_directory("./_site", { :verbose => true, :check_html => true,
-                                 :check_favicon => true, :check_external_hash => true }).run
+  options = { :assume_extension => true,
+              :verbose => true,
+              :check_html => true,
+              :check_favicon => true,
+              :check_external_hash => true }
+  HTMLProofer.check_directory("./_site", options).run
 end
 
 desc "Default task is to clean, build, and proof"
